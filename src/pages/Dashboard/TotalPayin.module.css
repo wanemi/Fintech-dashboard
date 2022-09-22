@@ -1,0 +1,45 @@
+.total {
+    background: #EFF5E1;
+    width: 200.83px;
+    height: 190px;
+    border-radius: 15.48px;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.amount {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.text {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.container {
+    margin-bottom: 7rem
+
+}
+
+@media (min-width: 768px) {
+    .total {
+        width: 279.83px;
+        height: 194px;
+        border-radius: 15.48px;
+        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,167 @@
+.container {
+  height: 48px;
+  background: #eff5e1;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0 2rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 65px;
+  height: 28px;
+  background: #02018c;
+  border-radius: 8px;
+  color: #ffffff;
+  align-items: center;
+  padding: 1rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 52px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 10px;
+}
+
+.text {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #474747;
+}
+
+.text2 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #474747;
+  margin-left: 11rem;
+}
+
+.icon4 {
+  color: #ffffff;
+  z-index: 2;
+  font-size: 2rem;
+  fill: #474747;
+  cursor: pointer;
+}
+
+.width1 {
+  width: 5%;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #474747;
+}
+
+.width2 {
+  width: 35%;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #474747;
+}
+
+.width3 {
+  width: 10%;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #474747;
+}
+
+.width4 {
+  width: 30%;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #474747;
+}
+
+.width5 {
+  width: 10%;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #474747;
+}
+
+.width6 {
+  width: 5%;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #474747;
+}
+
+.width7 {
+  width: 10%;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #474747;
+}
+
+th {
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .width1 {
+    font-size: 18px;
+  }
+
+  .width2 {
+    font-size: 18px;
+  }
+
+  .width3 {
+    font-size: 18px;
+  }
+
+  .width4 {
+    font-size: 18px;
+    width: 25%;
+  }
+
+  .width5 {
+    font-size: 18px;
+  }
+
+  .width6 {
+    font-size: 18px;
+  }
+
+  .width7 {
+    font-size: 18px;
+    width: 15%;
+  }
+
+  .container {
+    padding: 0;
+  }
+}

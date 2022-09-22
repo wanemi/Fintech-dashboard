@@ -1,0 +1,63 @@
+.total {
+    background: #F7E4E1;
+    width: 200.83px;
+    height: 190px;
+    border-radius: 15.48px;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.icon {
+    width: 39.22px;
+    height: 37px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    padding: 10%;
+}
+
+
+.arrow {
+    fill:  #000000;
+    font-size: 1.5rem;
+}
+
+.dollar {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+.txt {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+@media (min-width: 768px) {
+    .total {
+        width: 279.83px;
+        height: 194px;
+        border-radius: 15.48px;
+        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+    }
+}

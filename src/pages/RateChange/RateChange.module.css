@@ -1,0 +1,20 @@
+.header {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #31394D;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headertxt {
+    width: 100%;
+}

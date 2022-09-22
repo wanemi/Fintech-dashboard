@@ -1,0 +1,38 @@
+.container {
+  height: 48px;
+  background: #eff5e1;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  width: 100%;
+}
+
+.text {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #474747;
+}
+
+.icon4 {
+  color: #ffffff;
+  z-index: 2;
+  font-size: 2rem;
+  fill: #474747;
+  cursor: pointer;
+}
+
+tbody td {
+  text-align: center;
+}
+
+td {
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 18px;
+  }
+}

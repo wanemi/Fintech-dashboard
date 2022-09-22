@@ -1,0 +1,54 @@
+.Dashboard {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.header {
+  font-family: "Zilla Slab";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 30px;
+  color: #31394d;
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 0 auto;
+  gap: 10px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .txt {
+    padding-left: 1rem;
+  }
+
+  .header {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 5rem;
+    margin-top: 0;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 100%;
+    gap: 30px;
+  }
+}

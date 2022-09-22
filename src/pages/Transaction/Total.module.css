@@ -1,0 +1,76 @@
+.total {
+    background: rgba(196, 196, 196, 0.47);
+    border-radius: 15.48px;
+    padding: 2rem;
+    width: 200.83px;
+    height: 190px;
+}
+
+.text2 {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5rem;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    width: 95px;
+    height: 32px;
+    background: #02018C;
+    border-radius: 8px;
+}
+
+.icon2 {
+    color: #ffffff;
+    z-index: 2;
+    font-size: 2rem;
+    fill: #ffffff;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.txt {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.txt2 {
+    font-family: 'Libre Franklin';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .total {
+        width: 330px;
+        height: 194px;
+    }
+
+    .txt {
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+    }
+}

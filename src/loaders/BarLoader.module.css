@@ -1,0 +1,100 @@
+.barLoader {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 80%;
+    margin: 0 auto;
+  }
+  .barLoader div {
+    display: inline-block;
+    position: absolute;
+    left: 8%;
+    width: 16%;
+    background: #fff;
+    animation: barLoader 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .barLoader div:nth-child(1) {
+    left: 8%;
+    animation-delay: -0.24s;
+  }
+  .barLoader div:nth-child(2) {
+    left: 32%;
+    animation-delay: -0.12s;
+  }
+  .barLoader div:nth-child(3) {
+    left: 56%;
+    animation-delay: 0;
+  }
+  @keyframes barLoader {
+    0% {
+      top: 8%;
+      height: 64%;
+    }
+    50%, 100% {
+      top: 24%;
+      height: 32%;
+    }
+  }
+  
+
+  .main-loader {
+    top: 0px;
+    left:0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 55, 55, 0.1);
+    z-index: 200;
+  }
+
+  .loader-container{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 50%;
+    top: 35%;
+    left: 45%;
+  }
+/*
+  @media screen and (max-width: 24em) {
+    .barLoader {
+      display: inline-block;
+      position: relative;
+      width: 20%;
+      height: 80%;
+      margin: 0 auto;
+    }
+    .barLoader div {
+      display: inline-block;
+      position: absolute;
+      left: 8%;
+      width: 16%;
+      background: #fff;
+      animation: barLoader 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    }
+    .barLoader div:nth-child(1) {
+      left: 8%;
+      animation-delay: -0.24s;
+    }
+    .barLoader div:nth-child(2) {
+      left: 32%;
+      animation-delay: -0.12s;
+    }
+    .barLoader div:nth-child(3) {
+      left: 56%;
+      animation-delay: 0;
+    }
+
+    /*
+    @keyframes barLoader {
+      0% {
+        top: 8%;
+        height: 64%;
+      }
+      50%, 100% {
+        top: 24%;
+        height: 32%;
+      }
+    }
+
+    */

@@ -1,0 +1,25 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .result {
+        flex-direction: row;
+        margin-bottom: 5rem;
+    }
+    
+    .container1 {
+        flex-direction: row;
+        gap: 20px;
+    }
+}

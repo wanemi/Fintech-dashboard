@@ -1,0 +1,11 @@
+.container {
+    height: 48px;
+    background: #EFF5E1;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+
+th {
+    padding: 5px;
+}
+  

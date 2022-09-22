@@ -1,0 +1,63 @@
+.container {
+    background: #FBFAFE;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    height: 48px;
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 65px;
+    height: 28px;
+    background: #02018C;
+    border-radius: 8px;
+    color: #ffffff;
+    align-items: center;
+    padding: 1rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.icon2 {
+    color: #ffffff;
+    z-index: 2;
+    font-size: 3.5rem;
+    fill: #ffffff;
+}
+
+.icon3 {
+    color: #ffffff;
+    z-index: 2;
+    font-size: 4.5rem;
+    fill: #ffffff;
+}
+
+.icon4 {
+    color: #ffffff;
+    z-index: 2;
+    font-size: 4.5rem;
+    fill: #474747;
+}
+
+.icon1 {
+    background: rgba(2, 1, 140, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 30px;
+    height: 28px;
+}

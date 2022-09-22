@@ -1,0 +1,59 @@
+.header {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #31394D;
+    margin-bottom: 2rem;
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3.5rem;
+}
+
+.ratebtn {
+    width: 186px;
+    height: 48px;
+    background: #02018C;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.text {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headertxt {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 10%;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ebedf4;
+    border-radius: 5px;
+    border: none;
+    border-spacing: 0 15px;
+    background-color: #e5e5e5;
+}
