@@ -34,9 +34,7 @@ const Menu = () => {
     <div className={classes.nav}>
       <div className={classes.logo}>
         <Link to="/">
-          <span>
-            Dashboard
-          </span>
+          <span>Dashboard</span>
         </Link>
       </div>
       <NavBar Link="/" src={Dashboard} text="Dashboard" />
@@ -49,31 +47,13 @@ const Menu = () => {
       {showMenu && (
         <div>
           <NavBar Link="/setting" src={settings} text="Site Settings" />
-          {/*<NavBar Link="/rate" src={Rates} text="Rates" />*/}
           <NavBar
             className={classes.notAvailable}
             Link="/payout"
             src={payout}
             text="PayOuts"
           />
-          {/*<NavBar
-            Link="/rate-change"
-            src={RateChange}
-            text="Rates Change Logs"
-      />*/}
           <NavBar Link="/transaction" src={Transaction} text="Transactions" />
-          {/*
-        
-            <NavBar className={classes.notAvailable} Link="/payout" src={payout} text="PayOuts" />
-            <NavBar className={classes.notAvailable} Link="/permission" src={multi} text="Multi Transfers" />
-            <NavBar Link="/allusers" src={payroll} text="PayRolls" />
-            <NavBar className={classes.notAvailable} Link="/revenue" src={revenue} text="Revenue Logs" />
-            <NavBar className={classes.notAvailable} Link="/weekly" src={Dollar} text="Weekly Profit" />
-            <NavBar className={classes.notAvailable} Link="/monthly" src={Dollar} text="Monthly Profit" />
-            <NavBar className={classes.notAvailable} Link="/yearly" src={Dollar} text="Yearly Profit" />
-            <NavBar  className={classes.notAvailable} Link="/alltime" src={Dollar} text="All Time Profit" />
-           
-            */}
           <NavBar Link="/cashchange" src={change} text="Cash Change Logs" />
           <NavBar Link="/customers" src={customer} text="Customers" />
           <hr className={classes.border}></hr>
@@ -96,7 +76,6 @@ const Menu = () => {
           </NavLink>
         </div>
       )}
-
     </div>
   );
 };

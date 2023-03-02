@@ -30,19 +30,12 @@ const ResponsiveHeader = () => {
         <Aside>
           <nav className={classes.drawer}>
             <ul className={classes.links}>
-              <li>
+              <li onClick={closeDrawer}>
                 <Link to="/">Dashboard</Link>
               </li>
-              <div onClick={toggleMenu} className={classes.control}>
-                <h3 className={classes.text}>Control</h3>
-                <div className={classes.icon2}>
-                  <img alt="" src={close} />
-                </div>
-              </div>
-              {showMenu && (
                 <Fragment>
                   <li onClick={closeDrawer}>
-                    <Link to="/">Site Settings</Link>
+                    <Link to="/setting">Site Settings</Link>
                   </li>
                   <li onClick={closeDrawer}>
                     <Link to="/payout">PayOuts</Link>
@@ -66,7 +59,6 @@ const ResponsiveHeader = () => {
                     <Link to="/permission">Permission</Link>
                   </li>
                 </Fragment>
-              )}
             </ul>
           </nav>
         </Aside>
@@ -78,16 +70,6 @@ const ResponsiveHeader = () => {
         <div className={classes.th}>
           <Link to="/">Thesaurus</Link>
         </div>
-        <nav className={classes.nav}>
-          <ul>
-            <li>
-              <Link to="/">Courses</Link>
-            </li>
-            <li>
-              <Link to="/">Pricing</Link>
-            </li>
-          </ul>
-        </nav>
       </header>
     </Fragment>
   );
